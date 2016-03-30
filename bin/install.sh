@@ -9,7 +9,7 @@ echo | sudo adduser --disabled-login jns
 
 sudo usermod -aG sudo,ssh jns
 
-sudo -H -u jns ./jns-install.sh
+echo "y" | sudo -H -u jns ./jns-install.sh
 
 ln -s -t "`realpath ..`" /home/jns/jns
 

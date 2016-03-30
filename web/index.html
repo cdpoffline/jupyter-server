@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Jupyter</title>
+  </head>
+  <body>
+    <a href="" id="local"><h1>Offline</h1></a>
+    <script>
+    var proto = document.location.protocol;
+    var link = document.getElementById("local");
+    if (proto == "http:" || proto == "https:") 
+    {
+      link.href = document.location.protocol + "//" + document.location.hostname + ":9090";
+    } else {
+      link.href = "http://localhost:9090";
+    }
+    </script>
+  </body>
+</body>
