@@ -2,10 +2,12 @@ overview:
   tools:
     jupyter-server:
 #      image: overview.jpg
-      name: 
+      name:
         en-en: Jupyter
         de-de: Jupyter
-      text: 
+        it-it: Jupyter
+      text:
         en-en: Using the Jupyter Notebook, you can author engaging documents that combine live-code with narrative text, equations, images, video, and visualizations.
-        de-de: Mit Jupyter Notebook kannst Du interaktive Dokumente erzeugen, die Programmcode, Beschreibungen, Gleichungen, Bilder, Videos and Visualisierungen enthalten.
+        de-de: Mit Jupter Notebook kannst Du interaktive Dokumente erzeugen, die Programmcode, Beschreibungen, Gleichungen, Bilder, Videos and Visualisierungen enthalten.
+        it-it: Con un Jupyter Notebook puoi creare documenti attivi che uniscono codice, testi esplicativi, equazioni, immagini, video, e visualizzazioni di dati.                    
       module: jupyter-server
